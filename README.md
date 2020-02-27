@@ -50,6 +50,11 @@ Check full example in the `sampleApp` folder.
 
 - `SuggestionsPanelHeight` prop is renamed to `suggestionRowHeight` in order to support vertical lists. 
 
+## TODO
+- ref is not available: ```ref={component => this._textInput = component} --> ref={component => this.props.onRef(component)}```
+- container is not customizable ```<View> --> <View style={this.props.containerStyle}>```
+- port to TS
+- reduce package size
 
 ## License
 
